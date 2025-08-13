@@ -1,5 +1,5 @@
 
-# 🧠 Single-nucleus multiome analysis sheds molecular insights into glial activation, neuronal loss, and blood-brain barrier leakage in Amyotrophic Lateral Sclerosis brains
+# 🧠 Single-nucleus multiome analyses of blood-brain barrier leakage, glial activation, angiogenesis and neuronal loss in Amyotrophic Lateral Sclerosis motor cortex
 
 
 ## 📁 Directory
