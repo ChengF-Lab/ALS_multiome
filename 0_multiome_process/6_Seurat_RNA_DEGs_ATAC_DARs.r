@@ -1,3 +1,6 @@
+#seperately apply Seurat: FindMarkers function to identify differentially expressed genes (DEGs) and differentially accessible regions (DARs)
+#note: here we only use DARs, DEGs will be re-calculated using integrated transcriptomic data
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")

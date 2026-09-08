@@ -1,3 +1,5 @@
+#multiome data clustering: perform LSI embedding for ATAC and RNA data, seperately; then do batch correction; and finally combine ATAC and RNA embeddings for final clustering and visualization |
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")

@@ -1,3 +1,5 @@
+#footprint  analysis |
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")

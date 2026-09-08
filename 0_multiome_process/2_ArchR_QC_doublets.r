@@ -1,3 +1,5 @@
+#QC process for RNA and ATAC data and identify doublets |
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")
@@ -36,7 +38,7 @@ features=c("TSSEnrichment" ,   "ReadsInTSS" ,      "ReadsInPromoter" ,
 "ReadsInBlacklist" ,"PromoterRatio"  ,   "NucleosomeRatio" ,
 "nMultiFrags"   ,   "nMonoFrags",       "nFrags"     ,      "nDiFrags"   ,
 "BlacklistRatio",   "Gex_nUMI"  ,       "Gex_nGenes"  ,     "Gex_MitoRatio"  ,
-"Gex_RiboRatio" )
+"Gex_RiboRatio" ) #QC metrics
 
 p=QC_plot_details(meta_data,features,"ALS_nuclei_quality_beforeQC_",output_path)
 

@@ -1,3 +1,5 @@
+#Built arrow files for ATAC data |
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")
@@ -21,7 +23,7 @@ input_atac <- unlist(lapply(input_atac, function(x){
 names(input_atac) <- names
 allsamples = c("ALS1","ALS9","ALS11","ALS17","ALS3","ALS4","ALS8","ALS16")
 
-input_atac=input_atac[allsamples]  #for each data with related data path
+input_atac=input_atac[allsamples]
 sample_num=length(allsamples)
 ArrowFiles <- createArrowFiles(
   inputFiles = input_atac,

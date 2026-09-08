@@ -1,3 +1,7 @@
+#peak accessibility and peak-to-gene association analysis |
+
+
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")

@@ -1,6 +1,8 @@
+#Annotates cell types using canonical marker genes |
+
+
 library(ArchR)
 library('Cairo')
-datemark="240501"
 addArchRGenome("hg38")
 addArchRThreads(50)
 addArchRLocking(locking = TRUE)

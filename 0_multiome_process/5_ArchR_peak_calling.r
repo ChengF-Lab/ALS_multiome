@@ -1,3 +1,5 @@
+#cell peaks for multi-ome data |
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")
@@ -37,7 +39,7 @@ umap_ATAC="UMAP_LSI_ATAC_0.2_Har"
 
 
 
-projMulti5 <- loadArchRProject(path ="/home/doul2/beegfs/doul2/Work/ALS/Archr_multiome_output240501/5_2_multiome_psedobulk_peakcaling_SubCelltype") #to avoid rerun add group, here we directly use previous archr object has finished add grou file
+projMulti5 <- loadArchRProject(path ="xxx") #to avoid rerun add group, here we directly use previous archr object has finished add grou file
 projMulti5 <- saveArchRProject(ArchRProj = projMulti5, outputDirectory = input_path, overwrite = TRUE, load = TRUE)
 
 projMulti5$SubCelltype_Fibrinigen=paste0(projMulti5$SubCelltype,"_",projMulti5$Fibrinigen)

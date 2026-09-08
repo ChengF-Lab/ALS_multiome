@@ -1,3 +1,5 @@
+# create archR project and merge ATAC information |
+
 library(ArchR)
 library('Cairo')
 addArchRGenome("hg38")
